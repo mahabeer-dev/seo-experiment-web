@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Technical SEO Checklist: From Crawlability to Core Web Vitals</title>
+    <meta
+      name="description"
+      content="Work through a practical technical SEO checklist covering crawling, indexation, internal links, Core Web Vitals, structured data, and more using the RankRocket Digital sandbox site."
+    />
+    <link
+      rel="canonical"
+      href="https://www.rankrocketdigital.com/blog/technical-seo-checklist.html"
+    />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:title"
+      content="Technical SEO Checklist: From Crawlability to Core Web Vitals"
+    />
+    <meta
+      property="og:description"
+      content="Audit crawling, indexation, site architecture, Core Web Vitals, and structured data with this technical SEO checklist designed for hands-on practice."
+    />
+    <meta
+      property="og:url"
+      content="https://www.rankrocketdigital.com/blog/technical-seo-checklist.html"
+    />
+    <meta property="og:site_name" content="RankRocket Digital" />
+    <meta
+      property="og:image"
+      content="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg?w=2400"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Technical SEO Checklist: From Crawlability to Core Web Vitals"
+    />
+    <meta
+      name="twitter:description"
+      content="Use this step-by-step technical SEO checklist to practice auditing a realistic site for crawl issues, speed, and structured data."
+    />
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      dataLayer.push({
+        event: "page_view",
+        page_type: "blog_article",
+        page_template: "technical-seo-checklist",
+        article_title: "Technical SEO Checklist: From Crawlability to Core Web Vitals",
+      });
+    </script>
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-XXXXXXX");
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      gtag("js", new Date());
+      gtag("config", "G-XXXXXXXXXX");
+    </script>
+    <style>
+      body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#0f172a;background:#020617}
+    </style>
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+  </head>
+  <body class="no-js page">
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+
+    <header class="site-header" role="banner">
+      <div class="site-header-inner">
+        <a href="../index.html" class="brand" aria-label="RankRocket Digital Home">
+          <span class="brand-mark">RR</span>
+          <span class="brand-text">
+            <span class="brand-name">RankRocket Digital</span>
+            <span class="brand-tagline">SEO-First Experiments Lab</span>
+          </span>
+        </a>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <a href="../index.html">Home</a>
+          <a href="../about.html">About</a>
+          <a href="../services.html">Services</a>
+          <a href="../case-studies.html">Case Studies</a>
+          <a href="../blog.html" class="is-active">Blog</a>
+          <a href="../contact.html">Contact</a>
+        </nav>
+        <div class="header-cta">
+          <span>Run a full technical SEO audit</span>
+          <a
+            href="../services/technical-seo-audits.html"
+            class="btn btn-outline btn-pill btn-small"
+            data-track-click="article-technical-open-service"
+            >View Technical SEO Audits service</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="page-main" role="main">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="../index.html">Home</a>
+          <span aria-hidden="true">/</span>
+          <a href="../blog.html">Blog</a>
+          <span aria-hidden="true">/</span>
+          <span aria-current="page">Technical SEO Checklist</span>
+        </nav>
+
+        <article itemscope itemtype="https://schema.org/Article">
+          <header class="article-header">
+            <h1 class="article-title" itemprop="headline">
+              Technical SEO Checklist: From Crawlability to Core Web Vitals
+            </h1>
+            <p class="article-meta">
+              <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                By <span itemprop="name">Jordan Lee</span>
+              </span>
+              ·
+              <time datetime="2025-01-22" itemprop="datePublished">January 22, 2025</time>
+              · Updated
+              <time datetime="2025-06-01" itemprop="dateModified">June 1, 2025</time>
+            </p>
+          </header>
+
+          <div class="article-body" itemprop="articleBody">
+            <figure>
+              <img
+                src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg?w=2400"
+                alt="Website performance and technical SEO metrics on a laptop screen"
+              />
+            </figure>
+
+            <p>
+              Technical SEO ensures that search engines can reliably discover, crawl,
+              render, and understand your site. Without it, even the best content and
+              links struggle to reach their full potential. The good news is that you can
+              practice every major part of a technical SEO audit using the RankRocket
+              Digital sandbox site before you touch a real project.
+            </p>
+
+            <h2>1. Check crawling and indexation basics</h2>
+            <p>
+              Start your audit by confirming that search engines can reach important URLs
+              and avoid low-value ones. On this sandbox site, review:
+            </p>
+            <ul>
+              <li>
+                <strong>robots.txt</strong> at <code>/robots.txt</code>, which allows most
+                pages but disallows the <code>/noindex-test.html</code> URL.
+              </li>
+              <li>
+                <strong>XML sitemap</strong> at <code>/sitemap.xml</code>, which lists
+                core pages, service URLs, and key blog posts such as this checklist.
+              </li>
+              <li>
+                <strong>Status codes</strong> for every URL in the HTML sitemap at
+                <code>/sitemap.html</code>.
+              </li>
+            </ul>
+            <p>
+              Use your favourite crawler to confirm that all important pages return 200
+              responses and that the noindex test page is still discoverable but excluded
+              from the index via meta robots.
+            </p>
+
+            <h2>2. Audit internal links and broken URLs</h2>
+            <p>
+              Internal links shape how crawlers and visitors move through your site. In
+              this sandbox, most links are intentional, but one is deliberately broken for
+              testing: a link to
+              <a href="../services/ppc-management.html">PPC management services</a>
+              that does not exist.
+            </p>
+            <p>
+              Run a crawl and confirm that your tool flags this link as a 404. In a real
+              audit, you would either fix the URL, redirect it, or remove the link. Here,
+              you can keep it as a controlled example while you practice prioritising
+              broken-link fixes.
+            </p>
+            <p>
+              Beyond broken URLs, review:
+            </p>
+            <ul>
+              <li>
+                How many clicks from the home page it takes to reach deep blog posts and
+                service detail pages.
+              </li>
+              <li>
+                Whether anchor text clearly describes destinations such as
+                <a href="../services/technical-seo-audits.html">Technical SEO Audits</a>
+                and
+                <a href="../services/content-seo-copywriting.html"
+                  >Content SEO &amp; Copywriting</a
+                >.
+              </li>
+              <li>
+                Whether important pages have multiple internal paths leading to them.
+              </li>
+            </ul>
+
+            <h2>3. Review site architecture and canonicalization</h2>
+            <p>
+              Next, check whether the site’s structure makes sense for both users and
+              search engines. RankRocket Digital intentionally includes:
+            </p>
+            <ul>
+              <li>A clear hub-and-spoke pattern for services and blog content.</li>
+              <li>
+                A duplicate-content scenario where a “duplicate on-page SEO guide” page
+                mirrors the main
+                <a href="./on-page-seo-guide-beginners.html"
+                  >On-Page SEO Guide for Beginners</a
+                >.
+              </li>
+              <li>
+                A noindex page that still receives internal links so you can test how
+                “follow but noindex” behaves.
+              </li>
+            </ul>
+            <p>
+              Check that canonical tags point to the preferred versions of pages and that
+              you are not accidentally canonicalising away content you care about.
+            </p>
+
+            <h2>4. Evaluate Core Web Vitals and performance</h2>
+            <p>
+              Technical SEO now includes performance as a first-class concern. Use
+              Lighthouse, PageSpeed Insights, or WebPageTest to compare:
+            </p>
+            <ul>
+              <li>
+                The home page and large-image-heavy pages like this article, which
+                intentionally load big hero images from Pexels.
+              </li>
+              <li>
+                Leaner templates, such as certain service pages, where you can experiment
+                with lazy loading and script deferral.
+              </li>
+              <li>
+                The impact of inline critical CSS and render-blocking scripts in the head.
+              </li>
+            </ul>
+            <p>
+              Pay particular attention to Largest Contentful Paint (LCP) and Interaction to
+              Next Paint (INP). Document how compressing images or deferring non-critical
+              JavaScript changes those metrics.
+            </p>
+
+            <h2>5. Inspect JavaScript behavior and rendering</h2>
+            <p>
+              Modern SEO often involves some level of JavaScript. This sandbox keeps
+              JavaScript intentionally light, but there are still behaviours to audit:
+            </p>
+            <ul>
+              <li>
+                A small script in the head that toggles the <code>no-js</code> class to
+                <code>js</code>.
+              </li>
+              <li>
+                A main script file at <code>/assets/js/main.js</code> that handles
+                dataLayer events, contact form submissions, and A/B testing hooks.
+              </li>
+            </ul>
+            <p>
+              Verify that critical content appears in the HTML source and does not rely on
+              client-side rendering. Then confirm that deferred scripts do not block
+              initial rendering and that errors do not appear in the browser console.
+            </p>
+
+            <h2>6. Validate structured data</h2>
+            <p>
+              Structured data helps search engines understand entities and relationships.
+              RankRocket Digital includes:
+            </p>
+            <ul>
+              <li>Organization schema in the footer on every page.</li>
+              <li>Article and Breadcrumb schema on blog posts.</li>
+              <li>FAQ schema on the SEO Strategy &amp; Consulting service page.</li>
+            </ul>
+            <p>
+              Use Google’s structured data testing tools to validate the JSON-LD on this
+              checklist and other articles such as
+              <a href="./schema-markup-explained.html">Schema Markup Explained</a>. Note
+              any warnings or opportunities to add richer context, such as author sameAs
+              profiles or more specific article types.
+            </p>
+
+            <h2>7. Connect technical findings to business impact</h2>
+            <p>
+              A technical SEO checklist is most powerful when it leads to business
+              outcomes. Once you have identified issues and potential improvements, connect
+              them to goals using GA4. For example, you can:
+            </p>
+            <ul>
+              <li>
+                Measure whether faster pages correlate with higher completion rates on the
+                <a href="../contact.html">Contact</a> form.
+              </li>
+              <li>
+                Track whether visitors who land on technically cleaner pages such as the
+                <a href="../services/seo-strategy-consulting.html"
+                  >SEO Strategy &amp; Consulting</a
+                >
+                service are more likely to engage.
+              </li>
+              <li>
+                Build funnels from this checklist to the Technical SEO Audits service and
+                then to form submissions.
+              </li>
+            </ul>
+            <p>
+              Linking technical work to measurable outcomes makes it easier to prioritise
+              fixes and secure buy-in from stakeholders.
+            </p>
+
+            <h2>8. Turn this checklist into your own audit template</h2>
+            <p>
+              As you work through this sandbox, capture your steps in a reusable template.
+              Include sections for crawl data, status codes, performance metrics,
+              structured data validation, and analytics insights. The more structured your
+              approach, the easier it becomes to repeat on client sites without missing
+              critical details.
+            </p>
+            <p>
+              When you are comfortable, move from this practice environment to a real site
+              and adapt the checklist to that site’s specific stack and constraints. The
+              skills you build here—careful diagnosis, prioritisation, and clear
+              communication—are what separate strong technical SEO specialists from the
+              rest.
+            </p>
+          </div>
+
+          <footer class="article-footer">
+            <div class="article-tags">
+              <a href="../tags/technical-seo.html">Technical SEO</a>
+              <a href="../tags/on-page-seo.html">On-page SEO</a>
+            </div>
+            <div>
+              <a href="../services/technical-seo-audits.html"
+                >Back to Technical SEO Audit services</a
+              >
+            </div>
+          </footer>
+        </article>
+      </div>
+    </main>
+
+    <footer class="site-footer page-footer" role="contentinfo">
+      <div class="site-footer-inner">
+        <div class="footer-meta">
+          <strong>RankRocket Digital</strong>
+          <span>Fictional SEO &amp; digital marketing agency used for testing only.</span>
+          <span>© <span id="year"></span> RankRocket Digital. All rights reserved.</span>
+        </div>
+        <div class="footer-links">
+          <a href="../privacy-policy.html">Privacy Policy</a>
+          <a href="../terms-and-conditions.html">Terms &amp; Conditions</a>
+          <a href="../sitemap.html">HTML Sitemap</a>
+          <a href="../sitemap.xml">XML Sitemap</a>
+          <a href="../robots.txt">robots.txt</a>
+        </div>
+        <div class="footer-schema-note">
+          <strong>Organization schema:</strong>
+          <span
+            >This footer includes Organization structured data so you can validate rich
+            results in common schema testing tools.</span
+          >
+        </div>
+      </div>
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "RankRocket Digital",
+          "url": "https://www.rankrocketdigital.com/",
+          "logo": "https://www.rankrocketdigital.com/assets/images/logo-rankrocket.png",
+          "sameAs": [
+            "https://www.linkedin.com/company/rankrocket-digital",
+            "https://twitter.com/rankrocketseo"
+          ],
+          "description": "RankRocket Digital is a fictional performance-first SEO and digital marketing agency created as a sandbox for SEO and analytics testing."
+        }
+      </script>
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.rankrocketdigital.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Blog",
+              "item": "https://www.rankrocketdigital.com/blog/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Technical SEO Checklist: From Crawlability to Core Web Vitals",
+              "item": "https://www.rankrocketdigital.com/blog/technical-seo-checklist.html"
+            }
+          ]
+        }
+      </script>
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Technical SEO Checklist: From Crawlability to Core Web Vitals",
+          "description": "Audit crawling, indexation, site architecture, Core Web Vitals, and structured data with this technical SEO checklist designed for hands-on practice.",
+          "author": {
+            "@type": "Person",
+            "name": "Jordan Lee"
+          },
+          "datePublished": "2025-01-22",
+          "dateModified": "2025-06-01",
+          "image": "https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg?w=2400",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.rankrocketdigital.com/blog/technical-seo-checklist.html"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "RankRocket Digital",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://www.rankrocketdigital.com/assets/images/logo-rankrocket.png"
+            }
+          }
+        }
+      </script>
+    </footer>
+
+    <script>
+      (function () {
+        var yearEl = document.getElementById("year");
+        if (yearEl) {
+          yearEl.textContent = new Date().getFullYear();
+        }
+      })();
+    </script>
+    <script src="../assets/js/main.js" defer></script>
+  </body>
+</html>
+
