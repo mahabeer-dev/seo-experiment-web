@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RankRocket Digital | SEO &amp; Digital Marketing Agency Sandbox</title>
+    <meta
+      name="description"
+      content="RankRocket Digital is a fictional performance-first SEO agency built as a sandbox to practice on-page SEO, technical SEO, structured data, Core Web Vitals, and analytics tracking."
+    />
+    <link rel="canonical" href="https://www.rankrocketdigital.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="RankRocket Digital | SEO Sandbox Agency" />
+    <meta
+      property="og:description"
+      content="Practice real-world SEO tests on a fully functional dummy digital marketing agency website: metadata, schema, Core Web Vitals, GTM, GA4 and more."
+    />
+    <meta property="og:url" content="https://www.rankrocketdigital.com/" />
+    <meta property="og:site_name" content="RankRocket Digital" />
+    <meta
+      property="og:image"
+      content="https://images.pexels.com/photos/6476584/pexels-photo-6476584.jpeg?w=2400"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="RankRocket Digital | SEO Sandbox Agency" />
+    <meta
+      name="twitter:description"
+      content="Use RankRocket Digital as your SEO testing playground for on-page, technical SEO, structured data, analytics tracking and experiments."
+    />
+    <meta
+      name="twitter:image"
+      content="https://images.pexels.com/photos/6476584/pexels-photo-6476584.jpeg?w=2400"
+    />
+    <!-- Google Tag Manager & GA4 placeholders -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      dataLayer.push({
+        event: "page_view",
+        page_type: "home",
+        page_template: "home",
+      });
+    </script>
+    <!-- Google Tag Manager (replace GTM-XXXXXXX with your container ID) -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-XXXXXXX");
+    </script>
+    <!-- GA4 placeholder (replace G-XXXXXXXXXX with your GA4 Measurement ID) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      gtag("js", new Date());
+      gtag("config", "G-XXXXXXXXXX");
+    </script>
+    <!-- Render-blocking inline script kept intentionally for performance testing -->
+    <script>
+      !function(){var e=document.documentElement;e.className=e.className.replace("no-js","js")}();
+    </script>
+    <!-- Minified critical CSS for above-the-fold content -->
+    <style>
+      body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#0f172a;background:#020617}a{text-decoration:none;color:#0ea5e9}a:hover{text-decoration:underline;color:#38bdf8}header{background:linear-gradient(135deg,#0f172a,#020617);color:#f9fafb}
+    </style>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body class="no-js page">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+
+    <header class="site-header" role="banner">
+      <div class="site-header-inner">
+        <a href="/" class="brand" aria-label="RankRocket Digital Home">
+          <span class="brand-mark">RR</span>
+          <span class="brand-text">
+            <span class="brand-name">RankRocket Digital</span>
+            <span class="brand-tagline">SEO-First Experiments Lab</span>
+          </span>
+        </a>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <a href="index.html" class="is-active">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="case-studies.html">Case Studies</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="header-cta">
+          <span>Sandbox site for SEO &amp; analytics testing</span>
+          <a
+            href="#contact-cta"
+            class="btn btn-outline btn-pill btn-small"
+            data-track-click="header-contact-cta"
+            >Run an SEO experiment</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="page-main" role="main">
+      <div class="container">
+        <section
+          class="hero"
+          aria-labelledby="hero-title"
+          data-ab-experiment="hero-headline"
+        >
+          <div class="hero-grid">
+            <div>
+              <div class="eyebrow">
+                <span class="eyebrow-dot"></span>
+                <span>Fictional SEO agency • Real-world testing environment</span>
+              </div>
+              <h1
+                id="hero-title"
+                class="hero-title"
+                data-ab-variant="headline"
+              >
+                Rank faster with search-obsessed SEO and experimentation-ready tracking.
+              </h1>
+              <p class="hero-subtitle">
+                RankRocket Digital is a dummy SEO agency website crafted for SEO specialists,
+                analysts, and developers who want a safe place to test on-page improvements,
+                technical tweaks, Core Web Vitals fixes, schema markup, GA4, GTM, and more.
+              </p>
+              <div class="hero-actions">
+                <a
+                  href="contact.html"
+                  class="btn btn-primary btn-pill"
+                  data-track-click="hero-primary-consultation"
+                  data-rr="hero-cta"
+                  >Book a sandbox “consultation”</a
+                >
+                <a
+                  href="blog.html"
+                  class="btn btn-outline btn-pill"
+                  data-track-click="hero-secondary-blog"
+                  >Explore SEO test articles</a
+                >
+              </div>
+              <div class="hero-meta">
+                <div>
+                  <strong>Built for SEO pros</strong><br />
+                  Practice everything from crawling &amp; indexing to conversion tracking.
+                </div>
+                <div>
+                  <strong>Safe to break</strong><br />
+                  Change titles, URLs, schemas, internal links, and measure the impact.
+                </div>
+              </div>
+            </div>
+            <aside class="hero-card" aria-label="SEO performance teaser">
+              <div class="hero-metric-grid">
+                <div class="metric">
+                  <div class="metric-label">Organic traffic</div>
+                  <div class="metric-value">+187%</div>
+                  <div class="metric-label">in 6 months</div>
+                </div>
+                <div class="metric">
+                  <div class="metric-label">Core Web Vitals</div>
+                  <div class="metric-value">92/100</div>
+                  <div class="metric-label">lab score</div>
+                </div>
+                <div class="metric">
+                  <div class="metric-label">Conversion rate</div>
+                  <div class="metric-value">+63%</div>
+                  <div class="metric-label">after tests</div>
+                </div>
+              </div>
+              <p class="hero-note">
+                These numbers are fictional but the testing scenarios are not.
+                <span>Use this site to run controlled SEO and analytics experiments.</span>
+              </p>
+              <figure>
+                <img
+                  src="https://images.pexels.com/photos/6476584/pexels-photo-6476584.jpeg?w=2400"
+                  alt="Analytics dashboard with SEO graphs for RankRocket Digital"
+                />
+              </figure>
+            </aside>
+          </div>
+        </section>
+
+        <section class="section" aria-labelledby="section-services">
+          <div class="section-header">
+            <div>
+              <div class="section-kicker">What RankRocket “offers”</div>
+              <h2 id="section-services" class="section-title">
+                Service pages designed for internal linking experiments.
+              </h2>
+            </div>
+            <p class="section-description">
+              The services below behave like real agency offerings. Use them to test
+              keyword mapping, service page architecture, and how internal links from
+              blog posts influence discovery and relevance.
+            </p>
+          </div>
+          <div class="grid grid-3">
+            <article class="card card-muted">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Technical SEO Audits</h3>
+                  <p class="card-tag">Crawlability, indexation, and site hygiene</p>
+                </div>
+                <span class="card-badge">Core Web Vitals</span>
+              </div>
+              <div class="card-body">
+                Audit sitemap and robots.txt configurations, assess internal linking depth,
+                and test how fixing render-blocking assets or large images influences
+                performance in lab tools.
+              </div>
+              <div class="card-footer">
+                <span>Primary keyword: “technical SEO audit services”</span>
+                <a href="services/technical-seo-audits.html">View service page</a>
+              </div>
+            </article>
+            <article class="card card-muted">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">On-Page SEO &amp; Content</h3>
+                  <p class="card-tag">Metadata, headings, semantic HTML</p>
+                </div>
+                <span class="card-badge">On-page SEO</span>
+              </div>
+              <div class="card-body">
+                Test how unique titles, meta descriptions, heading hierarchies, and content
+                refreshes affect rankings and click-through rates on SEO-focused queries.
+              </div>
+              <div class="card-footer">
+                <span>Target: “on-page SEO agency”</span>
+                <a href="services/content-seo-copywriting.html">View service page</a>
+              </div>
+            </article>
+            <article class="card card-muted">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Analytics &amp; Experimentation</h3>
+                  <p class="card-tag">GA4, GTM, CRO, and A/B testing</p>
+                </div>
+                <span class="card-badge">Measurement</span>
+              </div>
+              <div class="card-body">
+                Wire GA4 events, configure ecommerce-style goals, push custom dataLayer
+                events, and prototype A/B tests without affecting a live business.
+              </div>
+              <div class="card-footer">
+                <span>Test conversion tracking setups</span>
+                <a href="services/analytics-conversion-optimization.html">View service page</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" aria-labelledby="section-blog">
+          <div class="section-header">
+            <div>
+              <div class="section-kicker">SEO learning hub</div>
+              <h2 id="section-blog" class="section-title">
+                Blog content ready for schema, internal links, and pagination.
+              </h2>
+            </div>
+            <p class="section-description">
+              The blog is populated with detailed SEO articles designed to feel like real
+              content. Use them to experiment with Article schema, FAQ snippets, internal
+              linking, canonical tags, and duplicate content scenarios.
+            </p>
+          </div>
+          <div class="blog-layout">
+            <div>
+              <div class="blog-list">
+                <article class="card">
+                  <h3 class="blog-card-title">
+                    <a href="blog/how-to-rank-on-google-2025.html"
+                      >How to Rank on Google in 2025</a
+                    >
+                  </h3>
+                  <div class="blog-meta">
+                    Advanced on-page SEO, search intent, and helpful content updates.
+                  </div>
+                  <p class="blog-excerpt">
+                    Explore how search has shifted toward intent clusters, entity-driven
+                    content, and experience signals—and practice mapping these concepts to
+                    headings, internal links, and schema on this very site.
+                  </p>
+                </article>
+                <article class="card">
+                  <h3 class="blog-card-title">
+                    <a href="blog/technical-seo-checklist.html"
+                      >Technical SEO Checklist: From Crawl Budget to Core Web Vitals</a
+                    >
+                  </h3>
+                  <div class="blog-meta">
+                    Ideal for auditing this sandbox and your real projects.
+                  </div>
+                  <p class="blog-excerpt">
+                    Follow a step-by-step process to evaluate server responses,
+                    JavaScript, render-blocking resources, XML sitemaps, and structured
+                    data without second-guessing what to test next.
+                  </p>
+                </article>
+                <article class="card">
+                  <h3 class="blog-card-title">
+                    <a href="blog/on-page-seo-guide-beginners.html"
+                      >On-Page SEO Guide for Beginners</a
+                    >
+                  </h3>
+                  <div class="blog-meta">
+                    Perfect for testing duplicate content and noindex scenarios.
+                  </div>
+                  <p class="blog-excerpt">
+                    See how headings, internal links, and keyword placement work together
+                    on a single URL—and compare the original guide against a duplicate
+                    version for canonical and noindex experiments.
+                  </p>
+                </article>
+                <article class="card">
+                  <h3 class="blog-card-title">
+                    <a href="blog/schema-markup-explained.html"
+                      >Schema Markup Explained for Real-World SEO</a
+                    >
+                  </h3>
+                  <div class="blog-meta">
+                    Practice with Organization, Breadcrumb, Article, and FAQ schema.
+                  </div>
+                  <p class="blog-excerpt">
+                    Work through practical schema examples and validate them using schema
+                    testing tools—from Organization schema in the footer to BlogPosting
+                    markup on articles.
+                  </p>
+                </article>
+              </div>
+              <div class="pagination" aria-label="Blog pagination preview">
+                <a href="blog.html" aria-label="View full blog listing"
+                  >View all SEO articles</a
+                >
+                <span>Pagination implemented on /blog.html and /blog-page-2.html</span>
+              </div>
+            </div>
+            <aside class="blog-sidebar" aria-label="Testing ideas">
+              <div class="blog-sidebar-section">
+                <h3>Ideas to test on this site</h3>
+                <ul>
+                  <li>Rewrite meta titles and descriptions to improve SERP click-through.</li>
+                  <li>Adjust internal linking between services and blog articles.</li>
+                  <li>Experiment with pagination, tag, and category templates.</li>
+                  <li>Measure how large images impact Lighthouse performance scores.</li>
+                </ul>
+              </div>
+              <div class="blog-sidebar-section">
+                <h3>Tracking &amp; CRO scenarios</h3>
+                <ul>
+                  <li>Configure GA4 events for scroll depth and outbound clicks.</li>
+                  <li>Test GTM triggers for form submissions and button clicks.</li>
+                  <li>Build audiences based on which service pages users view.</li>
+                  <li>Run A/B tests on hero copy and CTAs using dataLayer events.</li>
+                </ul>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <section
+          id="contact-cta"
+          class="section"
+          aria-labelledby="section-contact"
+        >
+          <div class="section-header">
+            <div>
+              <div class="section-kicker">Conversion tracking sandbox</div>
+              <h2 id="section-contact" class="section-title">
+                Test GA4 events and GTM form tracking with a safe lead form.
+              </h2>
+            </div>
+            <p class="section-description">
+              The form below never sends data to a server. Instead, it triggers
+              dataLayer events so you can practice configuring GA4 conversions, funnels,
+              and audiences without touching a production property.
+            </p>
+          </div>
+          <div class="form" aria-describedby="contact-form-description">
+            <p id="contact-form-description" class="form-help">
+              Submit the form and inspect the dataLayer to see the
+              <code>form_submission</code> event and payload.
+            </p>
+            <form id="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="name">Name</label>
+                  <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    class="form-control"
+                    autocomplete="name"
+                    placeholder="Alex, SEO Lead at GrowthCo"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="email">Work email</label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    class="form-control"
+                    autocomplete="email"
+                    placeholder="alex@growthco.com"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="service">Primary SEO focus</label>
+                <select id="service" name="service" class="form-select">
+                  <option value="">Select a focus area</option>
+                  <option value="technical_seo">Technical SEO &amp; Core Web Vitals</option>
+                  <option value="on_page_seo">On-page SEO &amp; content optimization</option>
+                  <option value="local_seo">Local SEO &amp; map rankings</option>
+                  <option value="analytics_testing">Analytics, GTM &amp; A/B testing</option>
+                </select>
+                <p class="form-help">
+                  Use this field in your GA4 reports to segment leads by intent.
+                </p>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="message">What do you want to test?</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-textarea"
+                  placeholder="For example: I want to test how changing internal links from the blog to the Technical SEO service page impacts rankings for 'technical SEO checklist'."
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-primary btn-pill"
+                data-track-click="home-contact-submit"
+              >
+                Submit and fire conversion event
+              </button>
+              <div id="contact-form-status" aria-live="polite"></div>
+            </form>
+          </div>
+        </section>
+
+        <section class="section" aria-labelledby="section-experiments">
+          <div class="section-header">
+            <div>
+              <div class="section-kicker">SEO testing notes</div>
+              <h2 id="section-experiments" class="section-title">
+                Built-in experiments for duplicate content, noindex, and broken links.
+              </h2>
+            </div>
+            <p class="section-description">
+              For advanced SEO testing, this site includes a duplicate content example, a
+              noindex page, tag and category archives, and even an intentionally broken
+              internal link you can use during crawl diagnostics.
+            </p>
+          </div>
+          <div class="grid grid-3">
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Duplicate content page</h3>
+                  <p class="card-tag">/duplicate-on-page-seo-guide.html</p>
+                </div>
+                <span class="status-badge">Testing only</span>
+              </div>
+              <div class="card-body">
+                This page reuses the same core content as the “On-Page SEO Guide for
+                Beginners” article so you can practice canonicalization, noindex rules,
+                and content rewrites.
+              </div>
+              <div class="card-footer">
+                <span>Compare crawl behavior in your favorite SEO tool.</span>
+                <a href="duplicate-on-page-seo-guide.html">Open duplicate content page</a>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Noindex test page</h3>
+                  <p class="card-tag">/noindex-test.html</p>
+                </div>
+                <span class="status-badge">Meta robots: noindex</span>
+              </div>
+              <div class="card-body">
+                Use this URL to confirm that your meta robots settings and crawl tools
+                handle noindex correctly while still allowing internal links to flow
+                through the rest of your architecture.
+              </div>
+              <div class="card-footer">
+                <span>Great for staging environment practice.</span>
+                <a href="noindex-test.html">Open noindex test page</a>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-header">
+                <div>
+                  <h3 class="card-title">Broken internal link</h3>
+                  <p class="card-tag">Service URL that returns 404</p>
+                </div>
+                <span class="status-badge">Intentional 404</span>
+              </div>
+              <div class="card-body">
+                Inside the Technical SEO Checklist article, you will find a link pointing
+                to a non-existent
+                <strong>/services/ppc-management.html</strong> page. Use it to validate
+                crawl error reporting and broken link detection.
+              </div>
+              <div class="card-footer">
+                <span>See also the custom 404 page.</span>
+                <a href="404.html">Preview the 404 template</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" aria-labelledby="section-note">
+          <h2 id="section-note" class="section-title">
+            A note for SEO professionals using this sandbox.
+          </h2>
+          <p id="experiment-note" class="section-description"></p>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer page-footer" role="contentinfo">
+      <div class="site-footer-inner">
+        <div class="footer-meta">
+          <strong>RankRocket Digital</strong>
+          <span>Fictional SEO &amp; digital marketing agency used for testing only.</span>
+          <span>© <span id="year"></span> RankRocket Digital. All rights reserved.</span>
+        </div>
+        <div class="footer-links">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+          <a href="sitemap.html">HTML Sitemap</a>
+          <a href="sitemap.xml">XML Sitemap</a>
+          <a href="robots.txt">robots.txt</a>
+        </div>
+        <div class="footer-schema-note">
+          <strong>Organization schema:</strong>
+          <span
+            >This footer includes Organization structured data so you can validate rich
+            results in common schema testing tools.</span
+          >
+        </div>
+      </div>
+      <!-- Organization schema for RankRocket Digital -->
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "RankRocket Digital",
+          "url": "https://www.rankrocketdigital.com/",
+          "logo": "https://www.rankrocketdigital.com/assets/images/logo-rankrocket.png",
+          "sameAs": [
+            "https://www.linkedin.com/company/rankrocket-digital",
+            "https://twitter.com/rankrocketseo"
+          ],
+          "description": "RankRocket Digital is a fictional performance-first SEO and digital marketing agency created as a sandbox for SEO and analytics testing."
+        }
+      </script>
+    </footer>
+
+    <script>
+      (function () {
+        var yearEl = document.getElementById("year");
+        if (yearEl) {
+          yearEl.textContent = new Date().getFullYear();
+        }
+      })();
+    </script>
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>
+

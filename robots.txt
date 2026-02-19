@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /noindex-test.html
+
+Sitemap: https://www.rankrocketdigital.com/sitemap.xml
+

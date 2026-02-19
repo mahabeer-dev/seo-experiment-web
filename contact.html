@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact RankRocket Digital | SEO Sandbox Contact Page</title>
+    <meta
+      name="description"
+      content="Contact RankRocket Digital, a fictional SEO agency sandbox, to test lead forms, GA4 conversion tracking, and GTM event setups in a safe environment."
+    />
+    <link rel="canonical" href="https://www.rankrocketdigital.com/contact.html" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Contact RankRocket Digital | SEO Sandbox Contact Page"
+    />
+    <meta
+      property="og:description"
+      content="Use this contact page to practice tracking submissions, measuring SEO-driven leads, and wiring GTM/GA4 events without touching a production site."
+    />
+    <meta
+      property="og:url"
+      content="https://www.rankrocketdigital.com/contact.html"
+    />
+    <meta property="og:site_name" content="RankRocket Digital" />
+    <meta
+      property="og:image"
+      content="https://images.pexels.com/photos/886743/pexels-photo-886743.jpeg?w=2200"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Contact RankRocket Digital | SEO Sandbox Contact Page"
+    />
+    <meta
+      name="twitter:description"
+      content="Submit this sandbox contact form to fire dataLayer events for GA4 and GTM testing."
+    />
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      dataLayer.push({
+        event: "page_view",
+        page_type: "contact",
+        page_template: "contact",
+      });
+    </script>
+    <!-- Google Tag Manager (replace GTM-XXXXXXX with your container ID) -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-XXXXXXX");
+    </script>
+    <!-- GA4 placeholder (replace G-XXXXXXXXXX with your GA4 Measurement ID) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      gtag("js", new Date());
+      gtag("config", "G-XXXXXXXXXX");
+    </script>
+    <!-- Small inline critical styles for above-the-fold layout -->
+    <style>
+      body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#0f172a;background:#020617}
+    </style>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body class="no-js page">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+
+    <header class="site-header" role="banner">
+      <div class="site-header-inner">
+        <a href="index.html" class="brand" aria-label="RankRocket Digital Home">
+          <span class="brand-mark">RR</span>
+          <span class="brand-text">
+            <span class="brand-name">RankRocket Digital</span>
+            <span class="brand-tagline">SEO-First Experiments Lab</span>
+          </span>
+        </a>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="case-studies.html">Case Studies</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html" class="is-active">Contact</a>
+        </nav>
+        <div class="header-cta">
+          <span>Test lead tracking &amp; qualification</span>
+          <a
+            href="blog/google-analytics-4-for-seo.html"
+            class="btn btn-outline btn-pill btn-small"
+            data-track-click="contact-read-ga4-article"
+            >Read GA4 for SEO</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="page-main" role="main">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span aria-hidden="true">/</span>
+          <span aria-current="page">Contact</span>
+        </nav>
+
+        <header class="article-header">
+          <h1 class="article-title">Contact RankRocket Digital</h1>
+          <p class="article-meta">
+            This is a sandbox contact page for SEO and analytics experiments. No real
+            enquiries are processed, but every interaction can be tracked and analyzed.
+          </p>
+        </header>
+
+        <section class="section" aria-labelledby="contact-form-heading">
+          <div class="section-header">
+            <div>
+              <div class="section-kicker">Conversion tracking playground</div>
+              <h2 id="contact-form-heading" class="section-title">
+                Submit a lead form and inspect the dataLayer event.
+              </h2>
+            </div>
+            <p class="section-description">
+              Use this form to practice building GTM triggers, GA4 conversions, and
+              marketing-qualified lead definitions. The form never hits a backend; it
+              simply pushes a structured event into <code>dataLayer</code>.
+            </p>
+          </div>
+
+          <div class="form" aria-describedby="contact-intro">
+            <p id="contact-intro" class="form-help">
+              Complete the fields below, submit, and then open your browser console to
+              inspect <code>window.dataLayer</code>. Look for the
+              <code>form_submission</code> event with lead details.
+            </p>
+            <form id="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="name">Full name</label>
+                  <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    class="form-control"
+                    autocomplete="name"
+                    placeholder="Jordan Lee"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="email">Work email</label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    class="form-control"
+                    autocomplete="email"
+                    placeholder="jordan@growthbrand.com"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="company">Company</label>
+                  <input
+                    id="company"
+                    name="company"
+                    type="text"
+                    class="form-control"
+                    autocomplete="organization"
+                    placeholder="GrowthBrand"
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="service">Primary SEO focus</label>
+                  <select id="service" name="service" class="form-select">
+                    <option value="">Select a focus area</option>
+                    <option value="technical_seo">Technical SEO &amp; Core Web Vitals</option>
+                    <option value="on_page_seo">On-page SEO &amp; content optimization</option>
+                    <option value="local_seo">Local SEO &amp; map rankings</option>
+                    <option value="analytics_testing">Analytics, GTM &amp; A/B testing</option>
+                  </select>
+                  <p class="form-help">
+                    This dropdown is captured as <code>service_interest</code> in
+                    <code>dataLayer</code>.
+                  </p>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="budget">Monthly SEO budget (fictional)</label>
+                <select id="budget" name="budget" class="form-select">
+                  <option value="">Select a budget range</option>
+                  <option value="under_3k">Under $3,000</option>
+                  <option value="3k_10k">$3,000 – $10,000</option>
+                  <option value="10k_25k">$10,000 – $25,000</option>
+                  <option value="25k_plus">$25,000+</option>
+                </select>
+                <p class="form-help">
+                  Use this field in GA4 to practice lead scoring and segmentation.
+                </p>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="message">What would you like to test?</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-textarea"
+                  placeholder="For example: I want to test how improving Core Web Vitals on service pages impacts form completion rates from organic search."
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                class="btn btn-primary btn-pill"
+                data-track-click="contact-submit"
+              >
+                Submit sandbox enquiry
+              </button>
+              <div id="contact-form-status" aria-live="polite"></div>
+            </form>
+          </div>
+        </section>
+
+        <section class="section" aria-labelledby="contact-next-steps">
+          <h2 id="contact-next-steps" class="section-title">
+            Ideas for GA4 and GTM experiments using this page.
+          </h2>
+          <ul class="article-body">
+            <li>
+              Configure a GA4 conversion event that fires on
+              <code>form_submission</code> with <code>service_interest</code> as a
+              parameter.
+            </li>
+            <li>
+              Create an audience of users who clicked the contact button on the home page
+              but did not submit this form.
+            </li>
+            <li>
+              Build a funnel that tracks organic sessions from a blog post through to this
+              contact page and form completion.
+            </li>
+            <li>
+              Test different CTAs in the navigation and header, then compare click and
+              completion rates.
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer page-footer" role="contentinfo">
+      <div class="site-footer-inner">
+        <div class="footer-meta">
+          <strong>RankRocket Digital</strong>
+          <span>Fictional SEO &amp; digital marketing agency used for testing only.</span>
+          <span>© <span id="year"></span> RankRocket Digital. All rights reserved.</span>
+        </div>
+        <div class="footer-links">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+          <a href="sitemap.html">HTML Sitemap</a>
+          <a href="sitemap.xml">XML Sitemap</a>
+          <a href="robots.txt">robots.txt</a>
+        </div>
+        <div class="footer-schema-note">
+          <strong>Organization schema:</strong>
+          <span
+            >This footer includes Organization structured data so you can validate rich
+            results in common schema testing tools.</span
+          >
+        </div>
+      </div>
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "RankRocket Digital",
+          "url": "https://www.rankrocketdigital.com/",
+          "logo": "https://www.rankrocketdigital.com/assets/images/logo-rankrocket.png",
+          "sameAs": [
+            "https://www.linkedin.com/company/rankrocket-digital",
+            "https://twitter.com/rankrocketseo"
+          ],
+          "description": "RankRocket Digital is a fictional performance-first SEO and digital marketing agency created as a sandbox for SEO and analytics testing."
+        }
+      </script>
+    </footer>
+
+    <script>
+      (function () {
+        var yearEl = document.getElementById("year");
+        if (yearEl) {
+          yearEl.textContent = new Date().getFullYear();
+        }
+      })();
+    </script>
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>
+
